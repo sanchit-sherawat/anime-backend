@@ -6,10 +6,9 @@ import userRoutes from './routes/userRoutes';
 import authRoutes from './routes/authRoutes';
 import AnimeCard from './routes/animeCardRoutes';
 import AnimeSeries from './routes/animeSeriesRoutes';
-import cors from 'cors'
+import cors from "cors"
 dotenv.config();
 
-// Connect to MongoDB
 connectDB();
 
 const app = express();
