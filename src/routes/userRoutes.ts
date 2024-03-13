@@ -1,10 +1,12 @@
 // src/routes/userRoutes.ts
 import express, { Request, Response } from 'express';
+import { UserService } from '../services/UserService';
 
 const router = express.Router();
 
 // Define routes
 router.get('/', (req: Request, res: Response) => {
+
   res.send('List of users');
 });
 
@@ -15,6 +17,8 @@ router.get('/:userId', (req: Request, res: Response) => {
 
 router.post('/', (req: Request, res: Response) => {
   // Handle creating a new user
+  const createduser = UserService.createUser(req)
+
   res.send('Create a new user');
 });
 
