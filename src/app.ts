@@ -4,20 +4,27 @@ import dotenv from 'dotenv';
 import connectDB from './config/database';
 import userRoutes from './routes/userRoutes';
 import authRoutes from './routes/authRoutes';
+import AnimeCard from './routes/animeCardRoutes';
+import AnimeSeries from './routes/animeSeriesRoutes';
+import cors from 'cors'
 dotenv.config();
 
 // Connect to MongoDB
 connectDB();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 // Middleware
+app.use(cors())
 app.use(express.json());
+app.use('/card',AnimeCard)
+app.use('/api', AnimeSeries);
 
 
 // Use routes
 app.use('/auth', authRoutes);
+// app.use()
 // Use routes
 app.use('/users', userRoutes);
 

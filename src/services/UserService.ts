@@ -1,7 +1,7 @@
 // src/services/UserService.ts
 import User, { IUser } from '../models/User';
-import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+var bcrypt = require('bcryptjs');
 
 export class UserService {
   static async createUser(username: string, email: string, password: string): Promise<IUser> {
@@ -34,5 +34,8 @@ export class UserService {
 
     return jwt.sign(payload, process.env.JWT_SECRET!, options);
   }
+
+
+  
   
 }
