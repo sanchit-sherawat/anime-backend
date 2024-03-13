@@ -1,5 +1,12 @@
 
 
+## [1.1.3](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.1...1.1.3) (2024-03-13)
+
+
+### Bug Fixes
+
+* new vwersion ([f82dadf](https://github.com/sanchit-sherawat/anime-backend/commit/f82dadfacd2918e9f26dfeaf105ea585a46467b7))
+
 ## [1.1.1](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.0...1.1.1) (2024-03-13)
 
 
