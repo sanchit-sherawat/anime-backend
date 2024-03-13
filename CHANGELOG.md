@@ -1,5 +1,12 @@
 
 
+## [1.1.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.0.1...1.1.0) (2024-03-13)
+
+
+### Features
+
+* the new feature ([7259c9d](https://github.com/sanchit-sherawat/anime-backend/commit/7259c9dedb6694d3e725939665ee27520aa13427))
+
 ## 1.0.1 (2024-03-13)
 
 
