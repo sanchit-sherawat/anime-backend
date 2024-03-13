@@ -1,5 +1,13 @@
 
 
+## [1.2.1](https://github.com/sanchit-sherawat/anime-backend/compare/1.2.0...1.2.1) (2024-03-13)
+
+
+### Bug Fixes
+
+* implement the cors in the app.js ([752933a](https://github.com/sanchit-sherawat/anime-backend/commit/752933aa2f8f3f7325c9b19ee61b9990415c09bc))
+* upadate the package of the cors ([1358878](https://github.com/sanchit-sherawat/anime-backend/commit/1358878f15e50288dc009f52575544fdbcc98edd))
+
 ## [1.2.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.5...1.2.0) (2024-03-13)
 
 
