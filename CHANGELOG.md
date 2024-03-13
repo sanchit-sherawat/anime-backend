@@ -1,5 +1,7 @@
 
 
+## [1.1.4](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.3...1.1.4) (2024-03-13)
+
 ## [1.1.3](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.1...1.1.3) (2024-03-13)
 
 
