@@ -23,6 +23,7 @@
   "dependencies": {
     "@commitlint/cli": "^19.1.0",
     "@commitlint/config-conventional": "^19.1.0",
+    "@release-it/conventional-changelog": "^8.0.1",
     "@types/bcrypt": "^5.0.2",
     "@types/node": "^20.11.24",
     "bcrypt": "^5.1.1",
