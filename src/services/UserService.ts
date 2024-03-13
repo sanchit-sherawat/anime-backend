@@ -1,4 +1,4 @@
-// src/services/UserService.ts
+
 import User, { IUser } from '../models/User';
 import jwt from 'jsonwebtoken';
 var bcrypt = require('bcryptjs');
@@ -29,7 +29,7 @@ export class UserService {
     };
 
     const options = {
-      expiresIn: '720h', // Token expiration time (adjust as needed)
+      expiresIn: '720h',
     };
 
     return jwt.sign(payload, process.env.JWT_SECRET!, options);

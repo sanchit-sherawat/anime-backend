@@ -1,6 +1,5 @@
-// src/services/AnimeSeriesService.ts
+
 import AnimeSeries, { IAnimeSeries } from '../models/AnimeSeries';
-// import anigo from "anigo-anime-api" ;
 class AnimeSeriesService {
   async createAnimeSeries(animeSeriesData: IAnimeSeries): Promise<IAnimeSeries> {
     try {
@@ -35,11 +34,6 @@ class AnimeSeriesService {
   }
   async getAnimeAllSeries(): Promise<IAnimeSeries[]> {
     try {
-      // let animeSeries ={
-      //   animename:animenames.animename
-      // }
-      // let l =  await anigo.getAllAnime()
-      // console.log(l);
       const animeSeriesList = await AnimeSeries.find();
       return animeSeriesList;
     } catch (error:any) {
