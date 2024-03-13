@@ -1,5 +1,12 @@
 
 
+## [1.2.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.5...1.2.0) (2024-03-13)
+
+
+### Features
+
+* add the new package cors ([3e54bf5](https://github.com/sanchit-sherawat/anime-backend/commit/3e54bf5fc082f264cf80c0951574e30e2df24e0f))
+
 ## [1.1.5](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.4...1.1.5) (2024-03-13)
 
 
