@@ -1,5 +1,13 @@
 
 
+## [1.1.5](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.4...1.1.5) (2024-03-13)
+
+
+### Bug Fixes
+
+* add the commit for the userservice ([eec21e8](https://github.com/sanchit-sherawat/anime-backend/commit/eec21e81cb7ad8e531c5abd2f9498d1a0aa774e4))
+* clear code ([0051346](https://github.com/sanchit-sherawat/anime-backend/commit/005134665198d84c17b217c6917e6b3d34e3e1ec))
+
 ## [1.1.4](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.3...1.1.4) (2024-03-13)
 
 ## [1.1.3](https://github.com/sanchit-sherawat/anime-backend/compare/1.1.1...1.1.3) (2024-03-13)
