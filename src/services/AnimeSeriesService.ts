@@ -13,8 +13,6 @@ class AnimeSeriesService {
 
   async getAllAnimeSeries(): Promise<IAnimeSeries[]> {
     try {
-      
-      
       const animeSeriesList = await AnimeSeries.find();
       return animeSeriesList;
     } catch (error:any) {

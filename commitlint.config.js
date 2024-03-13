@@ -4,7 +4,6 @@ module.exports = {
     'build',
     'chore',
     'ci',
-    'newadd',
     'docs',
     'feat',
     'fix',

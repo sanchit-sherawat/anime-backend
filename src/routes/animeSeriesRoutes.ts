@@ -44,5 +44,6 @@ router.post('/animeAllSeries', async (req: Request, res: Response) => {
 });
 
 // Add other route handlers for updating, deleting, and getting specific AnimeSeries
+// for the new routes 
 
 export default router;
