@@ -4,6 +4,7 @@ module.exports = {
     'build',
     'chore',
     'ci',
+    'newadd',
     'docs',
     'feat',
     'fix',
@@ -11,8 +12,7 @@ module.exports = {
     'refactor',
     'revert',
     'style',
-    'test',
-    'newadd'
+    'test'
     ],
     rules: {
       'subject-case': [2, 'never', ['start-case', 'pascal-case']],
