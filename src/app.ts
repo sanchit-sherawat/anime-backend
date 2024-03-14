@@ -17,6 +17,7 @@ const port = process.env.PORT || 3001;
 // Middleware
 app.use(cors())
 app.use(express.json());
+// coment foe the card and api end ponts for the connection 
 app.use('/card',AnimeCard)
 app.use('/api', AnimeSeries);
 
