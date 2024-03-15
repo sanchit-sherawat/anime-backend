@@ -1,5 +1,18 @@
 
 
+## [1.3.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.2.1...1.3.0) (2024-03-15)
+
+
+### Features
+
+* new type add in the enum ([1705b31](https://github.com/sanchit-sherawat/anime-backend/commit/1705b31bc507feb69d4e928e10ff32f0adaf85fd))
+
+
+### Bug Fixes
+
+* give the comments for the animebackend ([4ab9c1e](https://github.com/sanchit-sherawat/anime-backend/commit/4ab9c1e3aa6caf072650bd45ee0a7b59f3114068))
+* new key word add into the type ([b71a09c](https://github.com/sanchit-sherawat/anime-backend/commit/b71a09c4929ef18c039d845d695bfdd61d7fd17f))
+
 ## [1.2.2](https://github.com/sanchit-sherawat/anime-backend/compare/1.2.1...1.2.2) (2024-03-14)
 
 
