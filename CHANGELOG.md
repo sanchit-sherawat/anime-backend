@@ -1,5 +1,12 @@
 
 
+## [1.4.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.3.0...1.4.0) (2024-03-15)
+
+
+### Features
+
+* ## License ([66f65c0](https://github.com/sanchit-sherawat/anime-backend/commit/66f65c05de67bfe2f1a1a9f751b9c3afc0a223ea))
+
 ## [1.3.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.2.1...1.3.0) (2024-03-15)
 
 
