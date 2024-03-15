@@ -11,7 +11,8 @@ module.exports = {
     'refactor',
     'revert',
     'style',
-    'test'
+    'test',
+    'update'
     ],
     rules: {
       'subject-case': [2, 'never', ['start-case', 'pascal-case']],
