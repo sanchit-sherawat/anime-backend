@@ -1,5 +1,12 @@
 
 
+## [1.4.1](https://github.com/sanchit-sherawat/anime-backend/compare/1.4.0...1.4.1) (2024-04-23)
+
+
+### Bug Fixes
+
+* add the bcryptjs ([18e711f](https://github.com/sanchit-sherawat/anime-backend/commit/18e711fd3bfb210b736446d4907d00a29a600279))
+
 ## [1.4.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.3.0...1.4.0) (2024-03-15)
 
 
