@@ -27,7 +27,6 @@
     "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/node": "^20.11.24",
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "commitlint": "^19.1.0",
     "cors": "^2.8.5",
