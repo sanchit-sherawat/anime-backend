@@ -14,7 +14,7 @@ router.post('/signup', async (req: Request, res: Response) => {
       return res.status(400).json({ message: 'User already exists with this email' });
     }
 
-    const newUser = await UserService.createUser(username, email, password);
+    const newUser = await UserService.createUser({username, email, password});
     res.status(201).json({ user: newUser });
   } catch (error) {
     console.error('Error creating user:', error);
@@ -36,13 +36,14 @@ router.post('/login', authenticateUser, async (req: Request, res: Response) => {
 
     const passwordMatch = await UserService.comparePasswords(password, user.password);
     if (!passwordMatch) {
+      
       return res.status(401).json({ message: 'Invalid credentials' });
     }
 
     // Implement token generation or session handling here
     const token = await UserService.generateAuthToken(user);
     // Return a token or set a session cookie upon successful login
-    res.status(200).json({ message: 'Login successful', user });
+    res.status(200).json({ message: 'Login successful', token:token });
   } catch (error) {
     console.error('Error during login:', error);
     res.status(500).json({ message: 'Internal Server Error' });

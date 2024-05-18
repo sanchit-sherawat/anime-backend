@@ -10,6 +10,24 @@ class AnimeSeriesService {
       throw new Error(error.message);
     }
   }
+  async editAnimeSeries(animeSeriesData: IAnimeSeries): Promise<IAnimeSeries> {
+    // const { animename, description, count, scries,server } = req.body;
+    
+    try {
+        // Delete all anime series entries associated with the specified server
+    await AnimeSeries.deleteMany({ server: animeSeriesData.server });
+      // await AnimeSeries.deleteMany({ server: server });
+
+      // Create new anime series entry with updated data
+      // const animeSeries = new AnimeSeries({ animename, description, count, server: server, scries });
+  
+      const animeSeries = new AnimeSeries(animeSeriesData);
+      const savedAnimeSeries = await animeSeries.save();
+      return savedAnimeSeries;
+    } catch (error:any) {
+      throw new Error(error.message);
+    }
+  }
 
   async getAllAnimeSeries(): Promise<IAnimeSeries[]> {
     try {
