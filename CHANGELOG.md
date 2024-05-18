@@ -1,5 +1,12 @@
 
 
+## [1.5.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.4.1...1.5.0) (2024-05-18)
+
+
+### Features
+
+* implement the anime routes and service ([4300cc1](https://github.com/sanchit-sherawat/anime-backend/commit/4300cc14d8f783063d902777643f9b7259ce9613))
+
 ## [1.4.1](https://github.com/sanchit-sherawat/anime-backend/compare/1.4.0...1.4.1) (2024-04-23)
 
 
