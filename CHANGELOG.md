@@ -1,5 +1,12 @@
 
 
+## [1.5.1](https://github.com/sanchit-sherawat/anime-backend/compare/1.5.0...1.5.1) (2024-05-18)
+
+
+### Bug Fixes
+
+* remove bcript ([6102e77](https://github.com/sanchit-sherawat/anime-backend/commit/6102e7777e515a81c5f1637f2d47ab612beabe48))
+
 ## [1.5.0](https://github.com/sanchit-sherawat/anime-backend/compare/1.4.1...1.5.0) (2024-05-18)
 
 
