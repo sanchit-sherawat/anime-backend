@@ -1,8 +1,10 @@
 // src/routes/animeCardRoutes.ts
 import express, { Request, Response } from 'express';
 import animeCardService from '../services/AnimeCardService';
+import { authenticateUser } from '../middleware/authMiddleware';
 
 const router = express.Router();
+router.use(authenticateUser)
 
 router.post('/anime-cards', async (req: Request, res: Response) => {
   try {
